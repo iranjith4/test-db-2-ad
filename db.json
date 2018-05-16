@@ -155,6 +155,20 @@
         "facility_id" : "3",
         "options_id" : "12"
       }
+    ],
+    [
+      {
+        "facility_id" : "1",
+        "options_id" : "25"
+      },
+      {
+        "facility_id" : "2",
+        "options_id" : "70"
+      },
+      {
+        "facility_id" : "3",
+        "options_id" : "112"
+      }
     ]
   ]
 }
