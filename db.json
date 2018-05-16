@@ -1,0 +1,160 @@
+{
+  "facilities" : [
+    {
+      "facility_id" : "1",
+      "name" : "Property Type",
+      "options" : [
+        {
+          "name" : "Apartment",
+          "icon" : "apartment",
+          "id" : "1"
+        },
+        {
+          "name" : "Condo",
+          "icon" : "condo",
+          "id" : "2"
+        },
+        {
+          "name" : "Boat House",
+          "icon" : "boat",
+          "id" : "3"
+        },
+        {
+          "name" : "Land",
+          "icon" : "land",
+          "id" : "20"
+        },
+        {
+          "name" : "Apartment",
+          "icon" : "apartment",
+          "id" : "21"
+        },
+        {
+          "name" : "Condo",
+          "icon" : "condo",
+          "id" : "22"
+        },
+        {
+          "name" : "Boat House",
+          "icon" : "boat",
+          "id" : "23"
+        },
+        {
+          "name" : "Land",
+          "icon" : "land",
+          "id" : "24"
+        },
+        {
+          "name" : "Sel",
+          "icon" : "land",
+          "id" : "25"
+        }
+      ]
+    },
+    {
+      "facility_id" : "2",
+      "name" : "Number of Rooms",
+      "options" : [
+        {
+          "name" : "1 to 3 Rooms",
+          "icon" : "rooms",
+          "id" : "6"
+        },
+        {
+          "name" : "No Rooms",
+          "icon" : "no-room",
+          "id" : "7"
+        },
+        {
+          "name" : "1 to 3 Rooms",
+          "icon" : "rooms",
+          "id" : "66"
+        },
+        {
+          "name" : "No Rooms",
+          "icon" : "no-room",
+          "id" : "67"
+        },
+        {
+          "name" : "1 to 3 Rooms",
+          "icon" : "rooms",
+          "id" : "68"
+        },
+        {
+          "name" : "Sel",
+          "icon" : "no-room",
+          "id" : "70"
+        }
+      ]
+    },
+    {
+      "facility_id" : "3",
+      "name" : "Other facilities",
+      "options" : [
+        {
+          "name" : "Swimming Pool",
+          "icon" : "swimming",
+          "id" : "10"
+        },
+        {
+          "name" : "Garden Area",
+          "icon" : "garden",
+          "id" : "11"
+        },
+        {
+          "name" : "Garage",
+          "icon" : "garage",
+          "id" : "12"
+        },
+        {
+          "name" : "Swimming Pool",
+          "icon" : "swimming",
+          "id" : "110"
+        },
+        {
+          "name" : "Garden Area",
+          "icon" : "garden",
+          "id" : "111"
+        },
+        {
+          "name" : "Sel",
+          "icon" : "garage",
+          "id" : "112"
+        }
+      ]
+    }
+  ]
+  ,
+  "exclusions" : [
+    [
+      {
+        "facility_id" : "1",
+        "options_id" : "4"
+      },
+      {
+        "facility_id" : "2",
+        "options_id" : "6"
+      }
+    ],
+    [
+      {
+        "facility_id" : "1",
+        "options_id" : "3"
+      },
+      {
+        "facility_id" : "3",
+        "options_id" : "12"
+      }
+    ],
+    [
+      {
+        "facility_id" : "2",
+        "options_id" : "7"
+      },
+      {
+        "facility_id" : "3",
+        "options_id" : "12"
+      }
+    ]
+  ]
+}
